@@ -18,7 +18,7 @@ export default function AppWalletProvider({children}:{children:React.ReactNode})
     ],[netwrok])
     return (
         <ConnectionProvider endpoint={endpoint} >
-            <WalletProvider wallets={wallets} autoConnect >
+            <WalletProvider wallets={[]} autoConnect >
                 <WalletModalProvider>{children}</WalletModalProvider>
             </WalletProvider>
         </ConnectionProvider>

@@ -1,3 +1,4 @@
+'use client'
 import { useConnection , useWallet } from "@solana/wallet-adapter-react"
 import WalletConnectBtn from "./sm-components/wallectConnectBtn"
 import { useRouter } from "next/navigation"

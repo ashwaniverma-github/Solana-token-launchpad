@@ -1,10 +1,7 @@
 "use client"
 import GetStarted from "@/components/getStarted";
 import Navbar from "@/components/navbar";
-import WalletConnectBtn from "@/components/sm-components/wallectConnectBtn";
-import { useWallet } from "@solana/wallet-adapter-react";
 export default function Home() {
-  const wallet = useWallet()
   return (
     <div className="min-h-screen" >
       <Navbar/>
