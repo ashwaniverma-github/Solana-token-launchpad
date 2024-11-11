@@ -13,7 +13,12 @@ export default function GetStarted(){
         <>
         {publicKey?(
             <motion.div className="text-lg font-semibold"
-            whileHover={{scale:1.1}}
+            whileHover={{ scale: 0.9, rotate: 0 }}
+            whileTap={{
+                scale: 1,
+                
+                borderRadius: "100%"
+            }}
              >
                 <button onClick={()=>{
                     router.push('/dashboard')
