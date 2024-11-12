@@ -1,6 +1,6 @@
 'use client'
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui"
-import { animate, motion } from "framer-motion"
+import { motion } from "framer-motion"
 export default function WalletConnectBtn(){
     return (
         <motion.div

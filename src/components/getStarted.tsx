@@ -1,12 +1,11 @@
 'use client'
-import { useConnection , useWallet } from "@solana/wallet-adapter-react"
+import { useWallet } from "@solana/wallet-adapter-react"
 import WalletConnectBtn from "./sm-components/wallectConnectBtn"
 import { useRouter } from "next/navigation"
-import { animate, motion } from "framer-motion"
+import {  motion } from "framer-motion"
 
 export default function GetStarted(){
     const router = useRouter()
-    const {connection} = useConnection()
     const {publicKey} = useWallet()
 
     return (
